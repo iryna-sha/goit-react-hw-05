@@ -1,0 +1,30 @@
+.listMovies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1280px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.item {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 4px 4px rgb(9, 217, 186);
+    padding: 20px;
+    border-radius: 8px;
+
+    img {
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+
+    p {
+        font-size: 24px;
+        color: white;
+
+        margin-top: 20px;
+    }
+}

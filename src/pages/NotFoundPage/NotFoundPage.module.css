@@ -1,0 +1,23 @@
+.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+    font-weight: 900;
+    color: brown;
+    margin-bottom: 30px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    width: 130px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgba(150, 140, 140, 0.306);
+    border-bottom: 1px solid rgb(9, 217, 186);
+    color: rgb(9, 217, 186);
+
+}
